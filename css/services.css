@@ -1,0 +1,167 @@
+#services {
+  padding-top: 100px;
+}
+.busniness {
+  background-color: rgb(255, 255, 255);
+}
+.business-container {
+  padding-bottom: 157px;
+}
+.business-container h1 {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 57px;
+  letter-spacing: 0.2px;
+  color: #252b42;
+}
+.business-text {
+  text-align: center;
+}
+.business-container p {
+  margin-top: 15px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0.2px;
+  color: #737373;
+}
+.advertising {
+  position: relative;
+  margin-top: 100px;
+  display: flex;
+  gap: 121px;
+}
+.img {
+  width: 100%;
+}
+#width-img {
+  width: 100%;
+}
+.advertising .img button {
+  position: absolute;
+  left: 215px;
+  top: 152px;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+.list-info {
+  margin-top: 50px;
+}
+.list-info li {
+  margin-top: 30px;
+  display: flex;
+  align-items: start;
+  gap: 21px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  /* or 150% */
+
+  letter-spacing: 0.1px;
+
+  /* text-color */
+
+  color: #252b42;
+}
+
+/* partner start */
+.partner {
+  background-color: var(--nav-bg-color);
+  padding-bottom: 85px;
+}
+.partner-logo {
+  padding: 56px 0;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+.input {
+  padding: 30px 50px;
+  background-color: var(--second-color);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+.input h2 {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+  letter-spacing: 0.1px;
+  color: #ffffff;
+}
+.email-submit {
+  position: relative;
+}
+input {
+  width: 450px;
+  padding: 19.4px 20px;
+  outline: none;
+  border-radius: 5px 0 0 5px;
+}
+input::placeholder {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 28px;
+  letter-spacing: 0.2px;
+  color: #737373;
+}
+.input button {
+  position: absolute;
+  right: -5px;
+  background-color: var(--primary-color);
+  padding: 15px 20px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 28px;
+  text-align: center;
+  letter-spacing: 0.2px;
+  color: #ffffff;
+  border: none;
+  cursor: pointer;
+  border-right: none;
+  border-radius: 0px 5px 5px 0px;
+}
+
+@media (max-width: 416px) {
+  .business-container {
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+  .advertising {
+    flex-direction: column;
+  }
+  #width-img {
+    height: 442px;
+    object-fit: cover;
+    object-position: center;
+  }
+  .img button {
+    position: relative;
+  }
+  .img button img {
+    position: absolute;
+    top: 10px;
+    right: 40px;
+  }
+  .info h1 {
+    text-align: center;
+  }
+  .partner-logo {
+    flex-direction: column;
+    gap: 60px;
+  }
+  .input {
+    flex-direction: column;
+    gap: 30px;
+  }
+  .email-submit {
+    text-align: center;
+  }
+  input {
+    width: 280px;
+  }
+}

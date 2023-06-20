@@ -1,0 +1,175 @@
+.contact-us {
+  padding-top: 80px;
+  background-color: #f3f3f3;
+}
+.contact-text {
+  width: 470px;
+  margin: 0 auto;
+  text-align: center;
+}
+.contact-text h1 {
+  margin-bottom: 10px;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 57px;
+  letter-spacing: 0.2px;
+  color: #252b42;
+}
+.contact-text p {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  text-align: center;
+  letter-spacing: 0.2px;
+  color: #737373;
+}
+.three-card {
+  margin-top: 80px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding-bottom: 208px;
+}
+.one-card {
+  padding: 50px;
+  width: 328px;
+  text-align: center;
+  background-color: #ffffff;
+  transition: 0.5s;
+}
+.one-card svg {
+  margin-bottom: 15px;
+}
+.one-card a {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 24px;
+  /* identical to box height, or 171% */
+  transition: 0.5s;
+  text-align: center;
+  letter-spacing: 0.2px;
+
+  /* text-color */
+
+  color: #252b42;
+}
+strong {
+  margin-top: 15px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  transition: 0.5s;
+  text-align: center;
+  letter-spacing: 0.1px;
+  color: #252b42;
+}
+.request-bnt {
+  margin-top: 15px;
+  cursor: pointer;
+  padding: 10px 20px;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 24px;
+  text-align: center;
+  letter-spacing: 0.2px;
+  color: var(--primary-color);
+  border-radius: 8px;
+  background-color: transparent;
+  border: solid;
+  transition: 0.5s;
+}
+.one-card:hover {
+  background: #252b42;
+}
+.one-card:hover path {
+  fill: #ffffff;
+}
+.one-card:hover a {
+  color: #ffffff;
+}
+.one-card:hover strong {
+  color: #ffffff;
+}
+.one-card:hover .request-bnt {
+  color: #ffffff;
+}
+
+/* form qismi */
+.form {
+  background-color: #ffffff;
+  margin-top: 70px;
+}
+.form input {
+  display: block;
+  width: 100%;
+  outline: none;
+  margin-top: 30px;
+  border: solid#f3f3f3;
+}
+form {
+  position: relative;
+  padding-bottom: 98px;
+}
+textarea {
+  width: 100%;
+  margin-top: 30px;
+  padding: 20px;
+  border: solid#f3f3f3;
+  resize: none;
+  outline: none;
+}
+#select {
+  width: 100%;
+  padding: 13px 20px;
+  margin-top: 30px;
+  outline: none;
+  border: solid#f3f3f3;
+}
+#select option {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px;
+  /* identical to box height, or 171% */
+
+  letter-spacing: 0.01em;
+
+  /* black */
+
+  color: #000000;
+}
+.form button {
+  position: absolute;
+  cursor: pointer;
+  margin: 59px;
+  padding: 15px 40px;
+  color: #ffffff;
+  background-color: var(--primary-color);
+  border: none;
+  border-radius: 5px;
+  display: flex;
+}
+#btn-2 {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 98px;
+}
+@media (max-width: 416px) {
+  .contact-text {
+    width: 100%;
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+  .three-card {
+    gap: 30px;
+    padding-left: 43px;
+    padding-right: 43px;
+    padding-bottom: 170px;
+  }
+  strong {
+    display: block;
+  }
+  form {
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+}
