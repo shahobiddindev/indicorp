@@ -1,0 +1,219 @@
+.advertising,
+.list-info li,
+.partner-logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+}
+.advertising,
+.email-submit {
+  position: relative;
+}
+.business-text,
+.input button {
+  text-align: center;
+}
+#services {
+  padding-top: 100px;
+}
+.busniness {
+  background-color: #fff;
+}
+.business-container {
+  padding-bottom: 157px;
+}
+.business-container h1 {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 57px;
+  letter-spacing: 0.2px;
+  color: #252b42;
+}
+.business-container p {
+  margin-top: 15px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0.2px;
+  color: #737373;
+}
+.input h2,
+.list-info li {
+  font-weight: 700;
+  letter-spacing: 0.1px;
+}
+.advertising {
+  margin-top: 100px;
+  display: flex;
+  gap: 121px;
+}
+#width-img,
+.img {
+  width: 100%;
+}
+.advertising .img button {
+  position: absolute;
+  left: 215px;
+  top: 152px;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+.list-info {
+  margin-top: 50px;
+}
+.list-info li {
+  margin-top: 30px;
+  display: flex;
+  -webkit-box-align: start;
+  -ms-flex-align: start;
+  align-items: start;
+  gap: 21px;
+  font-size: 16px;
+  line-height: 24px;
+  color: #252b42;
+}
+.partner {
+  background-color: var(--nav-bg-color);
+  padding-bottom: 85px;
+}
+.partner-logo {
+  padding: 56px 0;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+.input {
+  padding: 30px 50px;
+  background-color: var(--second-color);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+.input h2 {
+  font-size: 24px;
+  line-height: 32px;
+  color: #fff;
+}
+input {
+  width: 450px;
+  padding: 19.4px 20px;
+  outline: 0;
+  border-radius: 5px 0 0 5px;
+}
+input::-webkit-input-placeholder {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 28px;
+  letter-spacing: 0.2px;
+  color: #737373;
+}
+input::-moz-placeholder {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 28px;
+  letter-spacing: 0.2px;
+  color: #737373;
+}
+input:-ms-input-placeholder {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 28px;
+  letter-spacing: 0.2px;
+  color: #737373;
+}
+input::-ms-input-placeholder {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 28px;
+  letter-spacing: 0.2px;
+  color: #737373;
+}
+input::placeholder {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 28px;
+  letter-spacing: 0.2px;
+  color: #737373;
+}
+.input button {
+  position: absolute;
+  right: -5px;
+  background-color: var(--primary-color);
+  padding: 15px 20px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 28px;
+  letter-spacing: 0.2px;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  border-right: none;
+  border-radius: 0 5px 5px 0;
+}
+@media (max-width: 416px) {
+  .advertising,
+  .input,
+  .partner-logo {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+  }
+  .business-container {
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+  .advertising {
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+  #width-img {
+    height: 442px;
+    -o-object-fit: cover;
+    object-fit: cover;
+    -o-object-position: center;
+    object-position: center;
+  }
+  .img button {
+    position: relative;
+  }
+  .img button img {
+    position: absolute;
+    top: 10px;
+    right: 40px;
+  }
+  .email-submit,
+  .info h1 {
+    text-align: center;
+  }
+  .partner-logo {
+    -ms-flex-direction: column;
+    flex-direction: column;
+    gap: 60px;
+  }
+  .input {
+    -ms-flex-direction: column;
+    flex-direction: column;
+    gap: 30px;
+  }
+  input {
+    width: 280px;
+  }
+}

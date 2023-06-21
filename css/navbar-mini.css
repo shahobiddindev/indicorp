@@ -1,0 +1,121 @@
+#navbar-open,
+#navbar-responsive {
+  display: none;
+}
+nav {
+  background-color: var(--nav-bg-color);
+  position: fixed;
+  width: 100%;
+  z-index: 10;
+}
+.nav-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding: var(--nav-padding);
+}
+.logo h1 {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+  letter-spacing: 0.1px;
+  color: #252b42;
+}
+.nav-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  gap: 28px;
+}
+.nav-list a {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 24px;
+  color: #737373;
+  -webkit-transition: 0.5s;
+  -o-transition: 0.5s;
+  transition: 0.5s;
+}
+.nav-list a:hover {
+  color: #000;
+}
+#navbar-open {
+  border: none;
+  cursor: pointer;
+  background-color: transparent;
+}
+@media (max-width: 416px) {
+  nav {
+    padding-left: 36px;
+    padding-right: 36px;
+  }
+  .nav-list {
+    display: none;
+  }
+  #navbar-open {
+    display: inline;
+  }
+  #navbar-responsive {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: -100%;
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: start;
+    -ms-flex-align: start;
+    align-items: start;
+    background-color: var(--nav-bg-color);
+    -webkit-transition: 1s;
+    -o-transition: 1s;
+    transition: 1s;
+  }
+  .res-nav-list {
+    list-style-type: none;
+    padding-top: 70px;
+  }
+  .res-nav-item {
+    margin: 10px 0;
+    text-align: center;
+  }
+  .res-nav-link {
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 45px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    color: #737373;
+    -webkit-transition: 0.5s;
+    -o-transition: 0.5s;
+    transition: 0.5s;
+  }
+  .res-nav-link:hover {
+    color: #000;
+  }
+  .res-nav-btn {
+    padding: 10px 20px;
+    font-size: 30px;
+  }
+  #navbar-close {
+    position: absolute;
+    top: 24px;
+    right: 36px;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+  }
+}

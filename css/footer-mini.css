@@ -1,0 +1,106 @@
+#touch li a,
+.footer-list,
+.last-footer-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+}
+.footer-nav {
+  padding-top: 50px;
+  padding-bottom: 87px;
+  background-color: #16697a;
+}
+.footer-list {
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+.list-content h3 {
+  margin-bottom: 10px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.1px;
+  color: #fff;
+}
+.footer-link a,
+.last-footer-container p {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.2px;
+}
+.footer-link li {
+  margin: 20px 0;
+}
+.footer-link a {
+  margin-top: 10px;
+  color: #fff;
+  -webkit-transition: 0.5s;
+  -o-transition: 0.5s;
+  transition: 0.5s;
+}
+.footer-link a:hover {
+  color: rgba(206, 223, 237, 0.862);
+}
+.footer-link img {
+  width: 23px;
+}
+#touch li a {
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  gap: 10px;
+}
+.last-footer-container {
+  padding: 20px;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+.last-footer-container p {
+  color: #737373;
+}
+.locols {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 20px;
+}
+@media (max-width: 416px) {
+  .footer-list,
+  .last-footer-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+  }
+  .footer-list {
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    padding-left: 87px;
+  }
+  .list-content {
+    margin-top: 30px;
+  }
+  .last-footer-container {
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    padding-left: 40px;
+    padding-right: 40px;
+    gap: 50px;
+  }
+  .locols {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    gap: 30px;
+  }
+}

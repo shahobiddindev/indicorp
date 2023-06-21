@@ -1,0 +1,175 @@
+#select,
+.form input,
+textarea {
+  width: 100%;
+  margin-top: 30px;
+  outline: 0;
+}
+.contact-us {
+  padding-top: 80px;
+  background-color: #f3f3f3;
+}
+.contact-text {
+  width: 470px;
+  margin: 0 auto;
+  text-align: center;
+}
+.contact-text h1 {
+  margin-bottom: 10px;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 57px;
+  letter-spacing: 0.2px;
+  color: #252b42;
+}
+.contact-text p {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  text-align: center;
+  letter-spacing: 0.2px;
+  color: #737373;
+}
+.one-card a,
+.request-bnt {
+  font-weight: 600;
+  font-size: 14px;
+  letter-spacing: 0.2px;
+}
+.three-card {
+  margin-top: 80px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  padding-bottom: 208px;
+}
+.one-card {
+  padding: 50px;
+  width: 328px;
+  text-align: center;
+  background-color: #fff;
+  -webkit-transition: 0.5s;
+  -o-transition: 0.5s;
+  transition: 0.5s;
+}
+.one-card a,
+strong {
+  -webkit-transition: 0.5s;
+  -o-transition: 0.5s;
+  color: #252b42;
+  text-align: center;
+  line-height: 24px;
+}
+.one-card svg {
+  margin-bottom: 15px;
+}
+.one-card a {
+  transition: 0.5s;
+}
+strong {
+  margin-top: 15px;
+  font-weight: 700;
+  font-size: 16px;
+  transition: 0.5s;
+  letter-spacing: 0.1px;
+}
+.request-bnt {
+  margin-top: 15px;
+  cursor: pointer;
+  padding: 10px 20px;
+  line-height: 24px;
+  text-align: center;
+  color: var(--primary-color);
+  border-radius: 8px;
+  background-color: transparent;
+  border: solid;
+  -webkit-transition: 0.5s;
+  -o-transition: 0.5s;
+  transition: 0.5s;
+}
+.one-card:hover {
+  background: #252b42;
+}
+.one-card:hover path {
+  fill: #ffffff;
+}
+.one-card:hover .request-bnt,
+.one-card:hover a,
+.one-card:hover strong {
+  color: #fff;
+}
+.form {
+  background-color: #fff;
+  margin-top: 70px;
+}
+.form input {
+  display: block;
+  border: 2px solid rgb(138, 135, 135);
+}
+#btn-2,
+.form button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+}
+form {
+  position: relative;
+  padding-bottom: 98px;
+}
+textarea {
+  padding: 20px;
+  border: 2px solid rgb(138, 135, 135);
+  resize: none;
+}
+#select {
+  padding: 13px 20px;
+  border: 2px solid rgb(138, 135, 135);
+}
+#select option {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px;
+  letter-spacing: 0.01em;
+  color: #000;
+}
+.form button {
+  position: absolute;
+  cursor: pointer;
+  margin: 59px;
+  padding: 15px 40px;
+  color: #fff;
+  background-color: var(--primary-color);
+  border: none;
+  border-radius: 5px;
+  display: flex;
+}
+#btn-2 {
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  margin-bottom: 98px;
+}
+@media (max-width: 416px) {
+  .contact-text,
+  form {
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+  .contact-text {
+    width: 100%;
+  }
+  .three-card {
+    gap: 30px;
+    padding-left: 43px;
+    padding-right: 43px;
+    padding-bottom: 170px;
+  }
+  strong {
+    display: block;
+  }
+}

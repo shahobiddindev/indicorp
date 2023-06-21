@@ -1,8 +1,17 @@
-@import url(./common.css);
-@import url(./navbar.css);
-@import url(./home.css);
-@import url(./about.css);
-@import url(./advice.css);
-@import url(./services.css);
-@import url(./contact.css);
-@import url(./footer.css);
+/* @import url(./common.css); */
+/* @import url(./navbar.css); */
+/* @import url(./home.css); */
+/* @import url(./about.css); */
+/* @import url(./advice.css); */
+/* @import url(./services.css); */
+/* @import url(./contact.css); */
+/* @import url(./footer.css); */
+
+@import url(./common-mini.css);
+@import url(./navbar-mini.css);
+@import url(./home-mini.css);
+@import url(./about-mini.css);
+@import url(./advice-mini.css);
+@import url(./services-mini.css);
+@import url(./contact-mini.css);
+@import url(./footer-mini.css);
